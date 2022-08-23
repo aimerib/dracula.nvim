@@ -339,7 +339,7 @@ M.apply = function()
 
 	-- Bufferline
 	highlight("BufferLineIndicatorSelected", colors.purple , nil, nil, nil)
-	highlight("BufferLineFill", nil , colors.black, nil, nil)
+	-- highlight("BufferLineFill", nil , colors.black, nil, nil)
 
 	-- LSP
 	highlight('DiagnosticError', colors.red, nil, nil, nil)
